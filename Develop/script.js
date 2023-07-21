@@ -23,15 +23,19 @@ $(function () {
   //2. compare the i  with curent hour
 
   for(let i = 9; i <= 17; i++) {
-    //  let event = localStorage.getItem('hour-' + i);
+     let event = localStorage.getItem('hour-' + i);
+     
     //  let event = localStorage.getItem(${parentId[i].currentHour});
 
-    JSON.parse(localStorage.getItem("parentId"));
+    // JSON.parse(localStorage.getItem("parentId"));
 
-    //  console.log(event); //next put text in textarea
-     //timeBlock.children();
-;
+     console.log(event); //next put text in textarea
+     
+
+
     let timeBlock = $('#hour-' + i)
+    timeBlock.children('textArea').text(localStorage.getItem('hour-' + i));
+    
     //we want to target past in class
     if(i === currentHour) {
         timeBlock.addClass('present');
@@ -43,6 +47,7 @@ $(function () {
     else {
       timeBlock.addClass('future');
     }
+
   }
 
 
@@ -77,7 +82,7 @@ $(function () {
 
     alert(textArea.val() + ' ' + parentId); //to get value of textArea
 
-    localStorage.setItem("parentId", JSON.stringify(myText));
+    localStorage.setItem(parentId, textArea.val());
     console.log(localStorage);
     
     // JSON.stringify(textArea.val()); //set all values to a string
