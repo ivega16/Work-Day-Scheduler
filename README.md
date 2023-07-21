@@ -18,7 +18,7 @@ N/A
 
 ## Usage
 
-Here is the link to deployed page: https://ivega16.github.io/challenge1-code-refactoring/
+Here is the link to deployed page: 
 
 ## Credits
 
