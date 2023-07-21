@@ -32,8 +32,8 @@ Isabella Vega - https://github.com/ivega16
 ## Features
 
 Website
-![image](https://github.com/ivega16/challenge1-code-refactoring/assets/99403219/cb1c40e6-c473-49e3-87c9-f9593047f1e3)
-![image](https://github.com/ivega16/challenge1-code-refactoring/assets/99403219/40737298-7b4c-4bf8-ba59-56eed77745ac)
+![image](https://github.com/ivega16/Work-Day-Scheduler/assets/99403219/0ed8bee4-4a40-4f00-9969-f50d8555a25a)
+
 
 
 
