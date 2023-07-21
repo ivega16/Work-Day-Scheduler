@@ -18,7 +18,7 @@ N/A
 
 ## Usage
 
-Here is the link to deployed page: 
+Here is the link to deployed page: https://ivega16.github.io/Work-Day-Scheduler/
 
 ## Credits
 
